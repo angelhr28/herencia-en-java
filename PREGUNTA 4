@@ -1,0 +1,18 @@
+class Main {
+    public static void main(String[] args) {
+        Alumno al = new Alumno();
+        al.setNombre("Newton Angel");
+        al.setApellido("Huamanñahui Robles");
+        al.setEdad(21);
+        al.setSexo("Masculino");
+        al.setCodAlumno("2016200111");
+
+        System. out. println(
+          "Nombre: "   + al.getNombre()    + "\n" + 
+          "Apellido: " + al.getApellido()  + "\n" +
+          "Codigo: "   + al.getCodAlumno() + "\n" +
+          "Edad: "     + al.getEdad()      + "\n" +
+          "sexo: "     + al.getSexo()  
+        );
+    }
+}
